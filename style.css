@@ -1,0 +1,73 @@
+body {
+    background-color: #e6ffe6;
+
+
+}
+
+.grid {
+    width: 600px;
+    height: 520px;
+    margin: 0 auto;
+    background-color: #fff;
+    border-radius: 20px;
+    padding: 10px 50px 50px 50px;
+    border: 2px solid #004d00;
+
+}
+
+
+.grid h1 {
+    font-family: Dancing Script;
+    background-color:  #33ff33;
+    text-shadow: -1px -1px 0 #000, 1px -1px 0 #000, -1px 1px 0 #000, 1px 1px 0 #000;
+    font-size: 60px;
+    text-align: center;
+    color: #ffffff;
+    padding: 2px 0px;
+    border-radius: 20px;
+    border: 0.5px solid black;
+}
+
+#score {
+    color: #5A6772;
+    text-align: center;
+    font-size: 30px;
+}
+
+.grid #question {
+    font-family: Chilanka;
+    font-size: 27px;
+    color: #004d00;
+}
+
+.buttons {
+    margin-top: 30px;
+}
+
+#btn0, #btn1, #btn2, #btn3 {
+    background-color: #e6ffe6;
+    width: 250px;
+    font-size: 20px;
+    color: #004d00;
+    border: 1px solid #004d00;
+    border-radius: 50px;
+    margin: 10px 30px 10px 0px;
+    padding: 10px 10px;
+    font-family: Chilanka;
+}
+
+#btn0:hover, #btn1:hover, #btn2:hover, #btn3:hover {
+    cursor: pointer;
+    background-color: #ccffcc;
+}
+
+#btn0:focus, #btn1:focus, #btn2:focus, #btn3:focus {
+    outline: 0;
+}
+
+#progress {
+    font-family: Chilanka;
+    color: #004d00;
+    font-size: 18px;
+    text-align: center;
+}
